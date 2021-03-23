@@ -1,4 +1,4 @@
 *.exe
 *.out
 .vscode
-
+cons_prime_sum.c
