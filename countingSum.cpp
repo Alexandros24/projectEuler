@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class PE0076
+class Num100
 {
 private:
     static const int max_num = 400;
@@ -12,7 +12,7 @@ public:
     long long countingSummations(int max_num);
 };
 
-long long PE0076::countingSummations(int num)
+long long Num100::countingSummations(int num)
 {
     long long mul_array[max_num+1] = { 0 };
     long long tmp_array[max_num+1] = { 0 };
@@ -43,9 +43,9 @@ long long PE0076::countingSummations(int num)
 
 int main()
 {
-    PE0076 pe0076;
+    Num100 fv;
 
     int n = 100;
 
-    cout << "Number " << n << " can be written " << pe0076.countingSummations(n) << " ways!" <<endl;
+    cout << "Number " << n << " can be written " << fv.countingSummations(n) << " ways!" <<endl;
 }
