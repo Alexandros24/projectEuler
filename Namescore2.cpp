@@ -21,7 +21,7 @@ int main()
         std::getline(file, getfile, ',');
         num += 1;
     }
-    std::cout << "To arxeio periexei: " << num << " onomata." << std::endl;
+    std::cout << "To file \"names\" consists of: " << num << " names." << std::endl;
     
     
     file.seekg(0);//starting again from 0 to read again the names to store in an array
@@ -58,7 +58,7 @@ int main()
         sum *= i + 1;
         allsum += sum;
     }
-    std::cout << "to sinolo einai " << allsum << std::endl;
+    std::cout << "The answer is: " << allsum << std::endl;
     //Edo brisketai to lathos!!!!!!!!!!!
 }
 
