@@ -1,4 +1,3 @@
-//problima 6
 #include <stdio.h>
 
 typedef unsigned long long bignum;
