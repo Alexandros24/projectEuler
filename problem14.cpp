@@ -1,5 +1,5 @@
 #include <iostream>
-#include <time.h>
+
 int main()
 {
     //working with checkpoints
@@ -34,5 +34,5 @@ int main()
         }
         chainCount = 1;
     }
-    std::cout << "The number " << myNum << " has longest chain of " << check << std::endl;
+    std::cout << "The number " << myNum + 1 << " has longest chain of " << check << std::endl;
 }
