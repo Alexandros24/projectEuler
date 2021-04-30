@@ -6,8 +6,6 @@
 
 int main()
 {
-    // 7! > 1000 so biggest possible fact will be 6!
-
     // initialize the sum
     unsigned int sum = 0;
 
